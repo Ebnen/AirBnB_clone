@@ -52,3 +52,30 @@
     font-size: 14px;
     margin: 0;
 }
+.filters .locations:hover,
+.filters .amenities:hover {
+  background-color: #fafafa;
+}
+.popover {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    width: 28%;
+    z-index: 1000;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+.locations:hover .popover, .amenities:hover .popover {
+    display: block;
+}
+
+
+.popover ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}

@@ -5,10 +5,10 @@ header {
 	border-bottom: 1px solid #CCCCCC;
 }
 header .logo {
-	background: url(../images/logo.png);
+	background-image: url(../images/logo.png);
 	height: 100px;
 	left: 20px;
-	align: left;
 	background-repeat: no-repeat;
+	
 	
 }
